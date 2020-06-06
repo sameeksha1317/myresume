@@ -1,0 +1,203 @@
+body{
+margin :0;
+}
+header{
+height : 60vh;
+background: url("laptop2.jpg");
+background-size: cover;
+opacity :0.8 ;
+
+background-repeat: no-repeat;
+background-position :top;
+background-attachment :fixed;
+}
+.horizon-list{
+list-style: none;
+padding  :0 ;}
+ .horizon-list {
+display :flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.horizon-list li a{
+text-decoration: none;
+color : white;
+font-size: 2vw;
+transition  : 1s ;
+}
+.horizon-list li a:hover{
+color :#FF00BF ;
+border-bottom : 1px solid white;
+}
+#name{
+font-size: 3vw;
+color:white ;
+text-shadow:2px 1px 2px #FF00BF  ;
+text-align :center;
+padding-top: 4vw;
+}
+.socialMedia ul{
+  display :flex;
+  flex-direction: row;
+list-style: none;
+justify-content: center;
+
+}
+.socialMedia ul a i{
+color:#424242;
+font-size: 2vw;
+margin :0 10px;
+padding : 1vw;
+border-radius: 50% ;
+}
+.socialMedia ul a i:hover{
+box-shadow: 0 0 6px 4px #BDBDBD;
+}
+#name{
+margin :0;
+}
+#about{
+height :auto ;
+width :100%;
+position: relative;
+}
+.aboutme {
+margin-top: -16vh;
+width :70%;
+margin-left:auto;
+margin-right: auto;
+}
+/* .center{
+text-align: center;
+} */
+.image img{
+width :100%;
+height :100%;
+border-radius: 50%;
+z-index: 1;
+border:1px solid white;
+box-shadow: 0 0 0.8vw 0.7vw #BDBDBD;
+margin-top: -20vh;
+}
+.image{
+  width : 10vw;
+  height :40vh;
+margin :auto;
+
+min-width:27vw ;
+min-height:35vw ;
+}
+
+section{
+height :auto;
+width :auto;
+
+}
+section:nth-child(2n+1){
+background-color: white;
+}
+section:nth-child(2n){
+background-color:#F8E0F7 ;
+}
+.common{
+padding:2vw 6vw;
+text-align: center;
+font-size: 1.5vw;
+}
+
+.block{
+height:5vh;
+width:25%;
+background-color:#FAFAFA;
+margin: 2%;
+cursor:pointer;
+border-radius: 12px;
+overflow: hidden;
+}
+.skills{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-direction: row;
+}
+.java{
+width:10%;
+height :100%;
+background-color: #BDBDBD;
+transition:1s;
+transition-property: width;
+transition-timing-function: ease-in;
+
+}
+.java:hover{
+width:75%;
+}
+.c{
+  width:10%;
+  height :100%;
+  background-color: #BDBDBD;
+  transition:1s;
+  transition-property: width;
+  transition-timing-function: ease-in;
+}
+.c:hover{
+width:65%;
+}
+.html{
+  width:10%;
+  height :100%;
+  background-color: #BDBDBD;
+  transition:1s;
+  transition-property: width;
+  transition-timing-function: ease-in;
+}
+.html:hover{
+width:85%;
+}
+.css{
+  width:10%;
+  height :100%;
+  background-color: #BDBDBD;
+  transition:1s;
+  transition-property: width;
+  transition-timing-function: ease-in;
+}
+.css:hover{
+width:80%;
+}
+.javascript{
+  width:10%;
+  height :100%;
+  background-color: #BDBDBD;
+  transition:1s;
+  transition-property: width;
+  transition-timing-function: ease-in;
+}
+.javascript:hover{
+width:70%;
+}
+.bootstrap{
+  width:10%;
+  height :100%;
+  background-color: #BDBDBD;
+  transition:1s;
+  transition-property: width;
+  transition-timing-function: ease-in;
+}
+.bootstrap:hover{
+width:65%;
+}
+.python{
+  width:10%;
+  height :100%;
+  background-color: #BDBDBD;
+  transition:1s;
+  transition-property: width;
+  transition-timing-function: ease-in;
+}
+.python:hover{
+width:60%;
+}
+.name{
+padding-top: 7px;
+}
