@@ -201,3 +201,57 @@ width:60%;
 .name{
 padding-top: 7px;
 }
+.softSkills{
+display:flex;
+flex-direction: row;
+}
+.skillouter{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.skillind{
+padding:10px 0;
+  height:auto;
+  width:25%;
+  background-color:#F2F2F2;
+  margin: 2%;
+font-size: 2vw;
+
+}
+.experience-block{
+border:1px solid black;
+
+}
+.cmmn{
+margin:10px;
+padding:12px;
+height:20vh;
+width:40%;
+border:1px solid black;
+}
+.cmmn:nth-child(2n+1){
+position:relative;
+margin-left:55%;
+}
+.line{
+width:0;
+height:210%;
+border:1px solid black;
+position: absolute;
+margin-left:43.7%;
+margin-top:8%;
+border-style: dashed;
+
+}
+.aero{
+position: sticky;
+}
+.fa-plane{
+transform :rotate(90deg);
+margin-left:-2vw;
+color:red;
+
+}
