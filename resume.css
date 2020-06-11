@@ -3,30 +3,38 @@ margin :0;
 }
 header{
 height : 60vh;
+max-height: 50vh;
 background: url("laptop2.jpg");
 background-size: cover;
 opacity :0.8 ;
-
 background-repeat: no-repeat;
 background-position :top;
 background-attachment :fixed;
 }
+nav{
+padding: 0.1px 0;
+background-image:linear-gradient(#848484,#F5A9F2);
+}
 .horizon-list{
 list-style: none;
-padding  :0 ;}
- .horizon-list {
+padding  :0 ;
 display :flex;
 flex-direction: row;
 justify-content: space-around;
 }
+li{
+border-left: 1px solid black;
+}
 .horizon-list li a{
 text-decoration: none;
 color : white;
-font-size: 2vw;
+font-size: 0.97rem;
 transition  : 1s ;
 }
+@media screen{}
 .horizon-list li a:hover{
-color :#FF00BF ;
+/* color :#FF00BF ; */
+color:black;
 border-bottom : 1px solid white;
 }
 #name{
@@ -233,6 +241,7 @@ margin:10px;
 padding:12px;
 height:auto;
 width:38%;
+position:relative;
 /* border:1px solid black; */
 background-color:#FBEFFB;
 margin-left:5%;
@@ -252,7 +261,7 @@ border-style: dashed;
 
 }
 .aero{
-/* position: sticky; */
+position : sticky;
 /* background-attachment :fixed; */
 transform :rotate(90deg);
 /* margin-left:-0.4vw; */
