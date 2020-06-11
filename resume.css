@@ -87,6 +87,9 @@ margin :auto;
 min-width:27vw ;
 min-height:35vw ;
 }
+h1{
+text-align: center;
+}
 
 section{
 height :auto;
@@ -101,7 +104,7 @@ background-color:#F8E0F7 ;
 }
 .common{
 padding:2vw 6vw;
-text-align: center;
+/* text-align: center; */
 font-size: 1.5vw;
 }
 
@@ -252,11 +255,11 @@ border-style: dashed;
 /* position: sticky; */
 /* background-attachment :fixed; */
 transform :rotate(90deg);
-margin-left:-2vw;
+/* margin-left:-0.4vw; */
 }
 .fa-plane{
 
-color:red;
+color:#2E2E2E;
 
 }
 .education-outer{
@@ -267,7 +270,7 @@ color:red;
 width:38%;
 padding:12px;
 margin:8px;
-height:100px;
+height:auto;
 /* border:1px solid black; */
 margin-left:5%;
 background-color: #F2F2F2;
@@ -277,7 +280,7 @@ margin-left:58%;
 }
 .line2{
   width:0;
-  height:25vw;
+  height:35vw;
   border:1px solid black;
   position: absolute;
   margin-left:46%;
@@ -288,14 +291,38 @@ margin-left:58%;
 display:flex;
 }
 .contact1{
-height:100px;
+margin-left:4%;
+height:auto;
 width:50%;
-border:1px solid black;
+/* border:1px solid black; */
 padding:10px;
 text-decoration: underline;
 }
 .contact2{
-  height:100px;
+padding-left:7%;
+float:left;
+  height:auto;
   width:50%;
-border:1px solid black;
+/* border:1px solid black; */
+margin-top: 4%;
+}
+.inp{
+margin:5%;
+}
+.sub{
+margin-left:30%;
+}
+.contact1 input[type=text]{
+  padding:2%;
+  width: 70%;
+border-radius:3px;
+
+}
+pre{
+margin-top: 10%;
+margin-left: 20%;
+font-size: 2vw;
+}
+.center{
+text-align: center;
 }
