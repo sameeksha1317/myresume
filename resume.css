@@ -229,10 +229,10 @@ width:60%;
 .name{
 padding-top: 7px;
 }
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
 .name{
 font-size: 15px;
-}
+} */
 
 
 }
@@ -256,7 +256,7 @@ padding:10px 0;
 font-size: 2vw;
 
 }
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
 .skillind{
 font-size: 15px;
 padding:6px;
@@ -264,7 +264,7 @@ padding:6px;
 .skillouter{
 margin-bottom:10px;
 }
-}
+} */
 .experience-block{
 /* border:1px solid black; */
 
