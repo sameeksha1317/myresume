@@ -3,12 +3,12 @@ margin :0;
 }
 header{
 height : 60vh;
-max-height: 57vh;
+
 background: url("laptop2.jpg");
-background-size: cover;
+background-size:cover;
 opacity :0.8 ;
 background-repeat: no-repeat;
-background-position :top;
+background-position :center;
 background-attachment :fixed;
 }
 nav{
@@ -27,15 +27,15 @@ justify-content: space-around;
 text-decoration: none;
 color : white;
 font-size: 2vw;
-transition  : 1s ;
+transition  : 0.2s ;
 }
-@media screen and (max-width:700px){
+/* @media screen and (max-width:700px){
 .horizon-list li a{
 font-size: 0.85rem;
-}
+} */
 
 
-}
+
 .horizon-list li a:hover{
 /* color :#FF00BF ; */
 color:black;
@@ -46,7 +46,8 @@ font-size: 3vw;
 color:white ;
 text-shadow:2px 1px 2px #FF00BF  ;
 text-align :center;
-padding-top: 4vw;
+padding-top: 10vh;
+margin :0;
 }
 
 .socialMedia ul{
@@ -66,9 +67,7 @@ border-radius: 50% ;
 .socialMedia ul a i:hover{
 box-shadow: 0 0 6px 4px #BDBDBD;
 }
-#name{
-margin :0;
-}
+
 #about{
 height :auto ;
 width :100%;
@@ -119,7 +118,7 @@ text-align: center;
 
 section{
 height :auto;
-width :auto;
+width :100%;
 
 }
 section:nth-child(2n+1){
